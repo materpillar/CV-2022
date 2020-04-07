@@ -1,0 +1,145 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% document class: possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% moderncv themes
+\moderncvstyle{classic} % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}  % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\usepackage{svg}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+\setlength{\makecvtitlenamewidth}{11cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Matthias}{Treber}
+% Title, used below the name, optional, comment/remove if not wanted.
+\title{\normalsize{27 years, German}\newline In everything I do, my aim is delivering high-quality and sustainable results. My all-time goals are improving my skills, and acquiring knowledge from a team of professionals and sharing my own.}
+% Address: optional, remove/comment not wanted;
+% the "postcode city" and and "country" arguments can be omitted or provided empty
+\address{Peter-Thumb-Str. 9}{79183 Waldkirch}{Germany}
+% Phone: optional, remove/comment if not wanted
+\phone[mobile]{+31~(0)~614~665425}
+\phone[mobile]{+49~(0)~1525~3427312}
+% remove/comment if not wanted
+\email{matthias.treber@mailbox.org}
+%\social[xing][www.xing.com/profile/Matthias_Treber]{Matthias Treber}
+\social[linkedin][www.linkedin.com/in/matthiastreber/]{Matthias Treber}
+%
+\begin{document}
+%
+\makecvtitle
+\section{Work Experience}
+\cventry{02/2019--today}{Simulation and Software Engineer}{ESA/ESTEC}{Noordwijk (Netherlands)}{\textit{German Trainee Programme}}{
+\begin{itemize}
+    \item Refactoring and CI implementation of Avionics Test Bench for EagleEye reference mission, including:
+      complete update of Matlab/Simulink models and infrastructure and code generation infrastructure; integration of generated code in EuroSim based Software Validation Facility and Real-Time Bench.
+    \item Automated execution of tests with visualisation and report generation.
+    \item Management of diverse software projects (git, Docker based CI integration, static analysis, build systems such as Make/CMake)
+    \item Support in development and installation of SCOS 2K mission control system
+    \item Support in Java based software projects for EGSE Reference Facility
+\end{itemize} 
+}
+\cventry{05/2018--10/2018}{Model based Software Development of Battery Powered Products}{Andreas Stihl AG \& Co. KG}{Waiblingen (Germany)}{\textit{working student}}{
+\begin{itemize}
+    \item Matlab/Simulink toolchain development
+    \item Development of functional demonstrators
+    \item Microcontroller variant management
+    \item Interface development between microcontrollers
+\end{itemize}
+}
+\cventry{11/2015--03/2016}{Conceptual Design of a Reference Air Data System}{Airbus Defence and Space}{Manching (Germany)}{\textit{bachelor thesis}}{
+Concept for redesign of an external fuel tank to an air data system.
+\begin{itemize}
+    \item Used for calibration of the aircraft air data system
+    \item Attachable to various fighter aircraft
+\end{itemize}
+}
+\cventry{04/2015--10/2015}{Eurofighter Flight Control System Development}{Airbus Defence and Space}{Manching (Germany)}{\textit{internship}}{
+Airbus Defence and Space, Manching
+\begin{itemize}
+    \item Tool development for the linear and nonlinear simulation toolchain of the Eurofighter Flight Control System (MATLAB, C, Fortran)
+    \item Execution of benchmarks on different simulation platforms
+\end{itemize}
+}
+\section{Education}
+
+\cventry{04/2016--09/2018}{M.Sc. Aerospace Engineering}{University of Stuttgart}{grade 1.4}{}{
+specialisation in:
+\begin{itemize}
+    \item Flight Guidance and System Technology
+    \item Design and Construction of Air- and Spacecraft
+\end{itemize}
+Thesis (grade 1.1): Investigation of Climb Strategies of Rotorcraft in Spatially Limited Airspace
+}
+
+\cventry{01/2017--06/2017}{ERASMUS exchange semester}{Universidad Carlos III de Madrid}{}{}{}
+
+\cventry{10/2012--04/2016}{B.Sc. Aerospace Engineering}{University of Stuttgart}{grade 2.0}{}{
+Thesis (grade 1.3): Conceptual Design of a Reference Air Data System\\
+collaboration with Airbus Defence and Space, Manching (Germany)
+}
+\cventry{09/2002--05/2011}{Highschool Graduation}{Geschwister-Scholl-Gymnasium, Waldkirch}{grade 1.5}{}{}
+
+\clearpage
+
+\section{Skills \& Programming Languages on Professional Level}
+\cvitem{Skills}{
+\makebox[20mm][c]{\includesvg{skills-svg/linux}}
+\makebox[20mm][c]{\includesvg{skills-svg/git}}
+\makebox[20mm][c]{\includesvg{skills-svg/jenkins}}
+\makebox[20mm][c]{\includesvg{skills-svg/docker}}
+\makebox[20mm][c]{\includesvg{skills-svg/gitlab}}
+}
+\cvitem{}{
+\makebox[20mm][c]{\includesvg{skills-svg/matlab}}
+\makebox[20mm][c]{\includesvg{skills-svg/python}}
+\makebox[20mm][c]{\includesvg{skills-svg/c}}
+\makebox[20mm][c]{\includesvg{skills-svg/java}}
+\makebox[20mm][c]{\includesvg{skills-svg/tex}}
+}
+\cvitem{}{}
+\cvitem{}{make, CMake, pylint, mypy, Ant, Eclipse, matplotlib, mkdocs}
+\cvitem{}{}
+\cvitemwithcomment{Additional}{CSDE: Jira, Confluence, Fisheye}{ATB, EagleEye, EGSE Reference Facility}
+\cvitemwithcomment{Experiences}{SCOS2K}{EagleEye RTB, EGSE Reference Facility}
+\cvitemwithcomment{}{TSC}{EagleEye SVF}
+
+\section{Trainings \& Courses}
+\cvitemwithcomment{2020}{Electrical Safety in ESTEC Laboratories}{ESA}
+\cvitemwithcomment{2019}{Integrated Project and Technical Review Process}{ESA}
+\cvitemwithcomment{}{LadyBird Guide to Spacecraft Operations}{ESA}
+\cvitemwithcomment{}{Human Spaceflight: Mission Design and Analysis}{TSTI}
+\cvitem{}{Requirements Management using DOORS}
+\cvitemwithcomment{}{Space System Verification \& Validation}{TSTI}
+
+\section{Languages}
+\cvitemwithcomment{German}{Native}{}
+\cvitemwithcomment{English}{Fluent}{}
+\cvitemwithcomment{Spanish}{B2}{University of Stuttgart}
+\cvitemwithcomment{French}{Basic}{}
+\cvitemwithcomment{Dutch}{Intermediate}{}
+
+\section{Voluntary Service}
+\cventry{08/2011–-07/2012}{International Youth Voluntary Service}{Indonesia}{AFS Deutschland e.V}{}{
+\begin{itemize}
+    \item Cultural exchange program with placement in a local native host family as a family member
+    \item Assistant for PR and fund raising for the partner organisation Bina Antarbudaya in Jakarta
+\end{itemize}
+}
+
+\section{About me}
+\cvitem{Current Engagements \& Interests}{Saturnus Leiden handball club committee member\newline Raspberry Pi, high mountain touring, ski touring, cello, saxophone}
+
+\clearpage
+\end{document}
