@@ -1,14 +1,8 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
+% Hack for loading moderncv class from subfolder
+\makeatletter
+   \def\input@path{{./moderncv-2.3.1}}
+\makeatother
 
-\RequirePackage{import}
-\import{moderncv-2.3.1/}{moderncv.cls}
-
-% document class: possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 \documentclass[11pt,a4paper,sans]{moderncv}
 
 % moderncv themes
@@ -29,64 +23,56 @@
 
 % Title, used below the name, optional, comment/remove if not wanted.
 %\title{\normalsize{30 years, German}\newline The application of best practices leads to high-quality work products and sustainable results. My all-time goals are improving my skills, and acquiring knowledge from a team of professionals while sharing my own experience.}
-\title{\normalsize{30 years, German}\newline The application of best practices leads to high-quality work products and sustainable results. Within my team of professionals I share my experience and knowledge while acquiring the same from my team mates.}
+%\title{\normalsize{30 years, German}\newline The application of best practices leads to high-quality work products and sustainable results. Within my team of professionals I share my experience and knowledge while acquiring the same from my team mates.}
 
 % Address: optional, remove/comment not wanted;
 % the "postcode city" and and "country" arguments can be omitted or provided empty
-\address{Tesselseplein 39}{2583 HR  Den Haag}{Netherlands}
+\address{Maria Stuartplein 509}{2595BW Den Haag}{Netherlands}
 % Phone: optional, remove/comment if not wanted
 \phone[mobile]{+31~(0)~614~665425}
 \phone[mobile]{+49~(0)~1525~3427312}
 % remove/comment if not wanted
 \email{matthias.treber@mailbox.org}
-%\social[xing][www.xing.com/profile/Matthias_Treber]{Matthias Treber}
+\social[github][github.com/materpillar]{Materpillar}
 \social[linkedin][www.linkedin.com/in/matthiastreber/]{Matthias Treber}
 %
 \begin{document}
 %
 \makecvtitle
 \section{Work Experience}
-\cventry{01/2021--today}{Model Based Systems Engineer}{Thales Netherlands B.V.}{Hengelo (Netherlands)}{}{
+\cventry{04/2022--today}{Senior Application Consultant for System Engineering Tools}{Thales Netherlands B.V.}{Hengelo (Netherlands)}{}{
 \begin{itemize}
-    \item Requirements engineering and system modelling for multi-billion euro worth frigate class mission system
-    \item Definition of system engineering methods; using DOORS and Capella in collaborative and configuration control compliant way
-    \item Development of automated toolchains for document and report generation using Powershell and Jenkins
-    \item Deployment of toolchains on workstations using infrastructure as code principles (scrum team)
+    \item Workbench design for System Engineering applications (Thales Orchestra Suite)
+    \item Architecture design for upcoming Siemens Polaron ALM deployment and migration planning from DOORS
+    \item Software Deployment using Ansible (Infrastructure as Code)
+    \item Development of automated document and report generation with Powershell and Jenkins
+\end{itemize} 
+}
+\cventry{01/2021--04/2022}{Model Based Systems Engineer}{Thales Netherlands B.V.}{Hengelo (Netherlands)}{}{
+\begin{itemize}
+    \item Requirements engineering and system modelling (DOORS \& Capella) for German Navy F126 frigates mission system and document generation of System Requirements Specification
+    \item Definition of system engineering methodology for Model Based Requirements Engineering in collaborative and configuration management compliant way
 \end{itemize} 
 }
 \cventry{02/2019--12/2020}{Simulation and Model Based Software Engineer}{ESA/ESTEC}{Noordwijk (Netherlands)}{\textit{German Trainee Programme}}{
 \begin{itemize}
     \item Development of Avionics Test Bench for EagleEye reference mission, including:
-      Migration and refactoring of Matlab/Simulink models for newest generation tooling and code generation infrastructure; integration of generated code in Software Validation Facility and Real-Time Test Bench.
+      Refactoring of Matlab/Simulink models for newest generation tooling and code generation infrastructure; integration of generated code in Software Validation Facility and Real-Time Test Bench.
     \item Continuous Integration (Gitlab-CI) implementation of Avionics Test Bench; Automated execution of test suites and report generation, postprocessing, and deployment to web servers.
-    \item Model based documentation of test benches.
-    \item Support in R\&D projects.
-    \item Development of diverse own software projects (using Git SCM, Docker based Gitlab-CI integration, static analysis, build systems such as GNU Make/CMake).
-    %\item Support in development and installation of SCOS 2K mission control system
-    %\item Support in Java based software projects for EGSE Reference Facility
+    \item Model based documentation of Flight Computer and Avionics Test Bench (Capella)
+    %\item Support in R\&D projects.
+    %\item Development of diverse own software projects (using Git SCM, Docker based Gitlab-CI integration, static analysis, build systems such as GNU Make/CMake).
+    \item Support in development and installation of SCOS 2K mission control system
+    \item Support in Java based software projects for EGSE Reference Facility
 \end{itemize} 
 }
-\cventry{05/2018--10/2018}{Model Based Software Development of Battery Powered Products}{Andreas Stihl AG \& Co. KG}{Waiblingen (Germany)}{\textit{working student}}{
-\begin{itemize}
-    \item Matlab/Simulink toolchain development
-    \item Development of functional demonstrators
-    \item Microcontroller variant management
-    \item Interface development between microcontrollers
-\end{itemize}
+\cventry{05/2018--10/2018}{Working Student Job}{Andreas Stihl AG \& Co. KG}{Waiblingen (Germany)}{}{
+Model Based Software Development of Battery Powered Products\\
+Development of functional demonstrators in Matlab/Simulink and deployment on microcontrollers using automated code generation.
 }
-\cventry{11/2015--03/2016}{Conceptual Design of a Reference Air Data System}{Airbus Defence and Space}{Manching (Germany)}{\textit{bachelor thesis}}{
-Concept for redesign of an external fuel tank to an air data system.
-\begin{itemize}
-    \item Used for calibration of the aircraft air data system
-    \item Attachable to various fighter aircraft
-\end{itemize}
-}
-\cventry{04/2015--10/2015}{Eurofighter Flight Control System Development}{Airbus Defence and Space}{Manching (Germany)}{\textit{internship}}{
-Airbus Defence and Space, Manching
-\begin{itemize}
-    \item Tool development for the linear and nonlinear simulation toolchain of the Eurofighter Flight Control System (MATLAB, C, Fortran)
-    \item Execution of benchmarks on different simulation platforms
-\end{itemize}
+\cventry{04/2015--03/2016}{Internship \& Bachelor Thesis}{Airbus Defence and Space}{Manching (Germany)}{}{
+"Conceptual Design of a Reference Air Data System" \\
+Design for reuse of an external fuel tank as an air data system that is used for calibration of the aircraft's air data system and that is attachable to various fighter aircraft.
 }
 \section{Education}
 
