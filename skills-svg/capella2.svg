@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1.5cm"
+   height="2cm"
+   viewBox="0 0 15 19.999999"
+   version="1.1"
+   id="svg2293"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="capella2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2295"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="cm"
+     showgrid="false"
+     units="cm"
+     inkscape:zoom="12.443434"
+     inkscape:cx="7.2327299"
+     inkscape:cy="33.471467"
+     inkscape:window-width="3766"
+     inkscape:window-height="1536"
+     inkscape:window-x="74"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2290">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter893-6-3-2"
+       x="-5.5370744e-05"
+       width="1.0001107"
+       y="-0.00025049426"
+       height="1.000501">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.001905"
+         id="feGaussianBlur895-7-5-9" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter893-6-3"
+       x="-5.5370744e-05"
+       width="1.0001107"
+       y="-0.00025049426"
+       height="1.000501">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.001905"
+         id="feGaussianBlur895-7-5" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter893-6"
+       x="-5.5370744e-05"
+       width="1.0001107"
+       y="-0.00025049426"
+       height="1.000501">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.001905"
+         id="feGaussianBlur895-7" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6)"
+       id="rect847-3-5"
+       width="82.570679"
+       height="18.251915"
+       x="0.014268214"
+       y="0.0031539311"
+       ry="5.1840477"
+       transform="matrix(0.16433514,0,0,0.15296099,0.71302291,9.0461231)" />
+    <rect
+       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3)"
+       id="rect847-3-5-6"
+       width="82.570679"
+       height="18.251915"
+       x="0.014268214"
+       y="0.0031539311"
+       ry="5.1840477"
+       transform="matrix(0.16433514,0,0,0.15296099,0.71302291,5.3881926)" />
+    <rect
+       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3-2)"
+       id="rect847-3-5-6-1"
+       width="82.570679"
+       height="18.251915"
+       x="0.014268214"
+       y="0.0031539311"
+       ry="5.1840477"
+       transform="matrix(0.16433514,0,0,0.15296099,0.71302291,1.7314126)" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="7.5611501"
+       y="17.815838"
+       id="text5374"><tspan
+         sodipodi:role="line"
+         id="tspan5372"
+         style="font-size:3.52778px;stroke-width:0.264583"
+         x="7.5611501"
+         y="17.815838">Capella</tspan></text>
+  </g>
+</svg>
