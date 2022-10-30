@@ -23,7 +23,7 @@
        style="color-interpolation-filters:sRGB"
        id="filter893"
        x="-0.88224044"
-       width="1.8832749"
+       width="1.8833384"
        y="-0.0013359215"
        height="1.1342643">
       <feGaussianBlur
@@ -78,9 +78,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.8622865"
-     inkscape:cx="19.332468"
-     inkscape:cy="46.994351"
+     inkscape:zoom="9.724573"
+     inkscape:cx="20.052294"
+     inkscape:cy="30.386938"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -116,7 +116,7 @@
      transform="translate(-71.469,-114.32144)"
      inkscape:groupmode="layer">
     <rect
-       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6)"
+       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6);stroke:none"
        id="rect847-3-5"
        width="82.570679"
        height="18.251915"
@@ -125,7 +125,7 @@
        ry="5.1840477"
        transform="matrix(0.16433514,0,0,0.15296099,72.182031,122.93412)" />
     <rect
-       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3)"
+       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3);stroke:none"
        id="rect847-3-5-6"
        width="82.570679"
        height="18.251915"
@@ -134,7 +134,7 @@
        ry="5.1840477"
        transform="matrix(0.16433514,0,0,0.15296099,72.182015,119.27619)" />
     <rect
-       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3-2)"
+       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3-2);stroke:none"
        id="rect847-3-5-6-1"
        width="82.570679"
        height="18.251915"
@@ -144,7 +144,7 @@
        transform="matrix(0.16433514,0,0,0.15296099,72.182015,115.61941)" />
     <path
        id="path70-3"
-       style="display:inline;opacity:1;fill:#ffffff;stroke-width:0.11;paint-order:markers stroke fill;filter:url(#filter893)"
+       style="display:inline;opacity:1;fill:#ffffff;stroke-width:0.11;paint-order:markers stroke fill;filter:url(#filter893);stroke:none"
        inkscape:transform-center-x="2.3385528e-06"
        inkscape:transform-center-y="-4.3387155e-06"
        transform="matrix(0.13949811,0,0,0.14192234,60.751297,98.729768)"
@@ -178,6 +178,6 @@
          id="tspan3726"
          x="79.036263"
          y="132.85976"
-         style="font-size:3.52778px;text-align:center;text-anchor:middle;stroke-width:0.264583">Capella</tspan></text>
+         style="font-size:3.52778px;text-align:center;text-anchor:middle;stroke-width:0.264583;stroke:none">Capella</tspan></text>
   </g>
 </svg>

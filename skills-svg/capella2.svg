@@ -80,7 +80,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6)"
+       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6);stroke:none"
        id="rect847-3-5"
        width="82.570679"
        height="18.251915"
@@ -89,7 +89,7 @@
        ry="5.1840477"
        transform="matrix(0.16433514,0,0,0.15296099,0.71302291,9.0461231)" />
     <rect
-       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3)"
+       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3);stroke:none"
        id="rect847-3-5-6"
        width="82.570679"
        height="18.251915"
@@ -98,7 +98,7 @@
        ry="5.1840477"
        transform="matrix(0.16433514,0,0,0.15296099,0.71302291,5.3881926)" />
     <rect
-       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3-2)"
+       style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3-2);stroke:none"
        id="rect847-3-5-6-1"
        width="82.570679"
        height="18.251915"
@@ -108,13 +108,13 @@
        transform="matrix(0.16433514,0,0,0.15296099,0.71302291,1.7314126)" />
     <text
        xml:space="preserve"
-       style="font-size:3.52778px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+       style="font-size:3.52778px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583;stroke:none"
        x="7.5611501"
        y="17.815838"
        id="text5374"><tspan
          sodipodi:role="line"
          id="tspan5372"
-         style="font-size:3.52778px;stroke-width:0.264583"
+         style="font-size:3.52778px;stroke-width:0.264583;stroke:none"
          x="7.5611501"
          y="17.815838">Capella</tspan></text>
   </g>
