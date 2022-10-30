@@ -108,7 +108,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="blue star"
+     inkscape:label="Ebene 0"
      id="layer1"
      style="display:inline;opacity:1;filter:url(#filter893)"
      transform="translate(-71.469,-114.32144)"
@@ -121,8 +121,7 @@
        x="0.014268214"
        y="0.0031539311"
        ry="5.1840477"
-       transform="matrix(0.16433514,0,0,0.15296099,72.182031,122.93412)"
-       sodipodi:insensitive="true" />
+       transform="matrix(0.16433514,0,0,0.15296099,72.182031,122.93412)" />
     <rect
        style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3)"
        id="rect847-3-5-6"
@@ -131,8 +130,7 @@
        x="0.014268214"
        y="0.0031539311"
        ry="5.1840477"
-       transform="matrix(0.16433514,0,0,0.15296099,72.182015,119.27619)"
-       sodipodi:insensitive="true" />
+       transform="matrix(0.16433514,0,0,0.15296099,72.182015,119.27619)" />
     <rect
        style="display:inline;fill:#736ba6;fill-opacity:1;stroke-width:0.999999;filter:url(#filter893-6-3-2)"
        id="rect847-3-5-6-1"
@@ -141,13 +139,7 @@
        x="0.014268214"
        y="0.0031539311"
        ry="5.1840477"
-       transform="matrix(0.16433514,0,0,0.15296099,72.182015,115.61941)"
-       sodipodi:insensitive="true" />
-    <path
-       style="display:none;fill:#ffffff;stroke:none;stroke-width:0.0318041px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 78.894106,118.44456 1.3302,-0.41479 0.999121,-2.39137 0.955206,2.40652 1.225286,0.38025 0.208169,0.83749 -1.475809,0.46627 -0.973225,2.3932 -0.968767,-2.41072 -1.373442,-0.43537 z"
-       id="path66"
-       sodipodi:nodetypes="ccccccccccc" />
+       transform="matrix(0.16433514,0,0,0.15296099,72.182015,115.61941)" />
     <path
        id="path70-3"
        style="display:inline;opacity:1;fill:#ffffff;stroke-width:0.11;paint-order:markers stroke fill;filter:url(#filter893)"
@@ -174,36 +166,16 @@
        transform="matrix(0.06410767,0,0,0.06522175,71.819327,109.62535)"
        inkscape:transform-center-y="-1.2429304e-06"
        d="m 146.58002,164.53094 -6.00356,-16.74452 -16.74452,-6.00355 16.74452,-6.00355 6.00356,-16.74453 6.00355,16.74453 16.74452,6.00355 -16.74452,6.00355 z" />
-    <path
-       sodipodi:type="star"
-       style="display:none;opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.11;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter893)"
-       id="path926"
-       sodipodi:sides="4"
-       sodipodi:cx="146.58002"
-       sodipodi:cy="141.78287"
-       sodipodi:r1="22.748077"
-       sodipodi:r2="8.4903049"
-       sodipodi:arg1="1.5707963"
-       sodipodi:arg2="2.3561945"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       inkscape:transform-center-x="2.839636e-06"
-       transform="matrix(0.13859548,0,0,0.14100403,60.883604,98.88087)"
-       inkscape:transform-center-y="-3.4007122e-06"
-       d="m 146.58002,164.53094 -6.00356,-16.74452 -16.74452,-6.00355 16.74452,-6.00355 6.00356,-16.74453 6.00355,16.74453 16.74452,6.00355 -16.74452,6.00355 z"
-       sodipodi:insensitive="true" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="79.036263"
        y="132.85976"
-       id="text3728"
-       sodipodi:insensitive="true"><tspan
+       id="text3728"><tspan
          sodipodi:role="line"
          id="tspan3726"
          x="79.036263"
          y="132.85976"
-         style="font-size:3.88056px;text-align:center;text-anchor:middle;stroke-width:0.264583">Capella</tspan></text>
+         style="font-size:3.52778px;text-align:center;text-anchor:middle;stroke-width:0.264583">Capella</tspan></text>
   </g>
 </svg>
